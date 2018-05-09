@@ -2,7 +2,12 @@
 Estruturas de dados e algorítmos 2 - 2018.1 - UNB
 
 # Execução
-Para a execução deste aplicativo você deverá ter instalado a biblioteca TKinter do python 3.
+Para a execução deste aplicativo você deverá ter instalado o python 3 e a biblioteca TKinter do python 3.
+
+O comando para executar a aplicação via terminal é
+```
+  python3 guiHuffman.py
+```
 
 Este projeto foi feito para a disciplina de Estrutura de dados e algorítimos 2 da Universidade de Brasília campus Gama.
 Foi implementada uma interface gráfica utilizando a biblioteca TKinter do python3 e um algoritmo de compressão de huffman com o intuito de comprimir e descomprimir arquivos de extensão ".txt".
