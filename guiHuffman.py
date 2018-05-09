@@ -70,13 +70,14 @@ class Application:
     #Método de compressão
     def compressFunc(self):
         path = self.name.get()
+        global h 
         h = HuffmanCoding(path)
+        global output_path 
         output_path = h.compress()
         print("Compressed file path: " + output_path)
 
     #Método de descompressão
     def decompressFunc(self):
-        path = self.name.get()
         decom_path = h.decompress(output_path)
         print("Decompressed file path: " + decom_path)
 
