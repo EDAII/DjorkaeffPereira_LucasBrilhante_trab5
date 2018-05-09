@@ -154,7 +154,7 @@ class HuffmanCoding:
 
 	def decompress(self, input_path):
 		filename, file_extension = os.path.splitext(self.path)
-		output_path = filename + "_decompressed" + ".txt"
+		output_path = "decompress_" + filename + ".txt"
 
 		with open(input_path, 'rb') as file, open(output_path, 'w') as output:
 			bit_string = ""
